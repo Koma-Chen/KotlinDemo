@@ -1,0 +1,87 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.Koma'
+android {
+    compileSdkVersion Versions.compileSdkVersion
+    buildToolsVersion Versions.buildToolsVersion
+    defaultConfig {
+        minSdkVersion Versions.minSdkVersion
+        targetSdkVersion Versions.targetSdkVersion
+        versionCode Versions.versionCode
+        versionName Versions.versionName
+    }
+    buildFeatures {
+        dataBinding = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api Deps.kotlinStdlib
+    api Deps.multidex
+    api Deps.ktxCore
+    api Deps.appcompat
+    api Deps.material
+    api Deps.constraintlayout
+    api Deps.swiperefreshlayout
+    //已有混淆规则
+    api Deps.okhttp
+    //已有混淆规则
+    api Deps.retrofit
+    api Deps.retrofitConverter
+    api Deps.retrofitUrlManager
+    //已有混淆规则
+    api Deps.gson
+    //已有混淆规则
+    api Deps.glide
+    api Deps.glideCompiler
+    //没有混淆规则
+    api Deps.mmkv
+    //已有混淆规则
+    api Deps.autosize
+    //lifecycle
+    api Deps.lifecycleRunTimeKtx
+    api Deps.lifecycleCommon
+    api Deps.lifecycleExtensions
+    // viewModel
+    api Deps.lifecycleViewmodel
+    api Deps.lifecycleFragment
+    // liveData
+    api Deps.livedata
+    api Deps.unpeekLivedata
+    //navigation
+    api Deps.navigation
+    api Deps.persistentCookieJar
+    api Deps.filedownloader
+    api Deps.baseAdapter
+    //dialog
+    api Deps.materialDialogLifecycle
+    api Deps.materialDialogLifecore
+    api Deps.materialDialogLifecolor
+    api Deps.materialDialogLifedatetime
+    api Deps.materialDialogLifebottomsheets
+
+    api Deps.loadSir
+    api Deps.recyclerview2
+    api Deps.utilcodex
+    api Deps.magicIndicator
+    api Deps.crashPage
+    api Deps.gsonFactory
+
+}

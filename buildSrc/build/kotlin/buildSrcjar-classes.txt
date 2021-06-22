@@ -1,0 +1,1 @@
+F:\AndroidStudioProject\KotlinDemo\buildSrc\build\classes\kotlin\main\Deps.class;F:\AndroidStudioProject\KotlinDemo\buildSrc\build\classes\kotlin\main\Versions.class
