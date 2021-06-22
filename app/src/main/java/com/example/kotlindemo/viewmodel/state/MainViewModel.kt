@@ -24,7 +24,6 @@ class MainViewModel : BaseViewModel() {
                 paramsMap.toJsonRequestBody()
             )
         }, {
-            println("登录成功:${it.token}")
             token.set(it.token)
             ToastUtils.showShort(it.token)
         }, {

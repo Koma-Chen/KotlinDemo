@@ -19,6 +19,7 @@ object Versions {
     const val glide = "4.11.0"
     const val mmkv = "1.2.9"
     const val autosize = "1.2.1"
+
     const val multidex = "1.0.3"
 
 

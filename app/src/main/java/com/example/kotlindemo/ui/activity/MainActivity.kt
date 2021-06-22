@@ -13,7 +13,7 @@ import com.example.kotlindemo.databinding.ActivityMainBinding
 import com.example.kotlindemo.viewmodel.state.MainViewModel
 import koma.mvvm.network.manager.NetState
 
-/**
+/** 
  * 项目主页Activity
  */
 class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>() {
