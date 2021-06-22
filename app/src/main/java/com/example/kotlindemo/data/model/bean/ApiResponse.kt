@@ -1,6 +1,6 @@
 package  com.example.kotlindemo.data.model.bean
 
-import me.hgj.jetpackmvvm.network.BaseResponse
+import koma.mvvm.network.BaseResponse
 
 /**
  * 作者　: Koma

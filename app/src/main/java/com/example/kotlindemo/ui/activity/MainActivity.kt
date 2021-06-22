@@ -11,7 +11,7 @@ import com.example.kotlindemo.app.base.BaseActivity
 import com.example.kotlindemo.app.util.StatusBarUtil
 import com.example.kotlindemo.databinding.ActivityMainBinding
 import com.example.kotlindemo.viewmodel.state.MainViewModel
-import me.hgj.jetpackmvvm.network.manager.NetState
+import koma.mvvm.network.manager.NetState
 
 /**
  * 项目主页Activity

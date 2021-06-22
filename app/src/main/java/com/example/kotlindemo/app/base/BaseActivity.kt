@@ -4,8 +4,8 @@ import android.os.Bundle
 import androidx.databinding.ViewDataBinding
 import com.example.kotlindemo.app.ext.dismissLoadingExt
 import com.example.kotlindemo.app.ext.showLoadingExt
-import me.hgj.jetpackmvvm.base.activity.BaseVmDbActivity
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.base.activity.BaseVmDbActivity
+import koma.mvvm.base.viewmodel.BaseViewModel
 
 /**
  * 　: 2019/12/21

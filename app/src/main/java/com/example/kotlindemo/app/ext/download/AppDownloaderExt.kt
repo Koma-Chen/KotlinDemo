@@ -4,7 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import com.liulishuo.filedownloader.BaseDownloadTask
 import com.liulishuo.filedownloader.FileDownloadSampleListener
 import com.liulishuo.filedownloader.exception.FileDownloadOutOfSpaceException
-import me.hgj.jetpackmvvm.ext.download.DownloadResultState
+import koma.mvvm.ext.download.DownloadResultState
 
 /**
  * @author : hgj

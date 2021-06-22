@@ -29,8 +29,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.kingja.loadsir.core.LoadService
 import com.kingja.loadsir.core.LoadSir
 import com.yanzhenjie.recyclerview.SwipeRecyclerView
-import me.hgj.jetpackmvvm.base.appContext
-import me.hgj.jetpackmvvm.ext.util.toHtml
+import koma.mvvm.base.appContext
+import koma.mvvm.ext.util.toHtml
 import net.lucode.hackware.magicindicator.MagicIndicator
 import net.lucode.hackware.magicindicator.buildins.UIUtil
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator

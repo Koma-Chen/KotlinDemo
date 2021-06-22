@@ -1,6 +1,6 @@
 package com.example.kotlindemo.viewmodel.state
 
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.base.viewmodel.BaseViewModel
 
 /**
  * 作者　: hegaojian

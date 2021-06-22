@@ -3,8 +3,7 @@ package com.example.kotlindemo.app.network.interceptor
 import com.blankj.utilcode.util.ToastUtils
 import com.example.kotlindemo.data.model.bean.RestfulErrorResponse
 import com.hjq.gson.factory.GsonFactory
-import me.hgj.jetpackmvvm.network.RestfulException
-import me.hgj.jetpackmvvm.util.LogUtils
+import koma.mvvm.network.RestfulException
 import okhttp3.Interceptor
 import okhttp3.Response
 

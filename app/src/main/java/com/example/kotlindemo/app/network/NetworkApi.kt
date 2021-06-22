@@ -6,10 +6,10 @@ import com.franmontiel.persistentcookiejar.PersistentCookieJar
 import com.franmontiel.persistentcookiejar.cache.SetCookieCache
 import com.franmontiel.persistentcookiejar.persistence.SharedPrefsCookiePersistor
 import com.google.gson.GsonBuilder
-import me.hgj.jetpackmvvm.base.appContext
-import me.hgj.jetpackmvvm.network.BaseNetworkApi
-import me.hgj.jetpackmvvm.network.interceptor.CacheInterceptor
-import me.hgj.jetpackmvvm.network.interceptor.logging.LogInterceptor
+import koma.mvvm.base.appContext
+import koma.mvvm.network.BaseNetworkApi
+import koma.mvvm.network.interceptor.CacheInterceptor
+import koma.mvvm.network.interceptor.logging.LogInterceptor
 import okhttp3.Cache
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

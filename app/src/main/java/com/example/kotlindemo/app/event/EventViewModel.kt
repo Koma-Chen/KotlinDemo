@@ -1,8 +1,8 @@
 package  com.example.kotlindemo.app.event
 
 import  com.example.kotlindemo.data.model.bean.CollectBus
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
-import me.hgj.jetpackmvvm.callback.livedata.event.EventLiveData
+import koma.mvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.callback.livedata.event.EventLiveData
 
 /**
  * 作者　: Koma

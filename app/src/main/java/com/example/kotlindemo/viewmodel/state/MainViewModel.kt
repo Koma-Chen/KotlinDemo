@@ -2,10 +2,10 @@ package com.example.kotlindemo.viewmodel.state
 
 import com.blankj.utilcode.util.ToastUtils
 import com.example.kotlindemo.app.network.apiService
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
-import me.hgj.jetpackmvvm.callback.databind.StringObservableField
-import me.hgj.jetpackmvvm.ext.requestNoCheck
-import me.hgj.jetpackmvvm.ext.util.toJsonRequestBody
+import koma.mvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.callback.databind.StringObservableField
+import koma.mvvm.ext.requestNoCheck
+import koma.mvvm.ext.util.toJsonRequestBody
 
 class MainViewModel : BaseViewModel() {
 

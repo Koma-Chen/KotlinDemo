@@ -5,8 +5,8 @@ import androidx.databinding.ViewDataBinding
 import com.example.kotlindemo.app.ext.dismissLoadingExt
 import  com.example.kotlindemo.app.ext.hideSoftKeyboard
 import com.example.kotlindemo.app.ext.showLoadingExt
-import me.hgj.jetpackmvvm.base.fragment.BaseVmDbFragment
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.base.fragment.BaseVmDbFragment
+import koma.mvvm.base.viewmodel.BaseViewModel
 
 /**
  * 作者　: Koma

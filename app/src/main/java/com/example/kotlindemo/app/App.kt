@@ -11,7 +11,7 @@ import com.example.kotlindemo.ui.activity.ErrorActivity
 import com.kingja.loadsir.callback.SuccessCallback
 import com.kingja.loadsir.core.LoadSir
 import com.tencent.mmkv.MMKV
-import me.hgj.jetpackmvvm.base.BaseApp
+import koma.mvvm.base.BaseApp
 
 /**
  * 作者　: Koma

@@ -4,9 +4,9 @@ import com.kunminx.architecture.ui.callback.UnPeekLiveData
 import  com.example.kotlindemo.app.util.CacheUtil
 import  com.example.kotlindemo.app.util.SettingUtil
 import  com.example.kotlindemo.data.model.bean.UserInfo
-import me.hgj.jetpackmvvm.base.appContext
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
-import me.hgj.jetpackmvvm.callback.livedata.event.EventLiveData
+import koma.mvvm.base.appContext
+import koma.mvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.callback.livedata.event.EventLiveData
 
 /**
  * 作者　: Koma

@@ -4,8 +4,8 @@ import androidx.lifecycle.MutableLiveData
 import com.example.kotlindemo.app.network.stateCallback.ListDataUiState
 import com.example.kotlindemo.app.network.stateCallback.UpdateUiState
 import com.example.kotlindemo.data.model.bean.AriticleResponse
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
-import me.hgj.jetpackmvvm.state.ResultState
+import koma.mvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.state.ResultState
 
 /**
  * 作者　: hegaojian

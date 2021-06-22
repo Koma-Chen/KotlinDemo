@@ -74,7 +74,7 @@
 
 ######MVVM
 -keep public class com.example.kotlindemo.data.model.bean.**{*;}
--keep class me.hgj.jetpackmvvm.**{*;}
+-keep class koma.mvvm.**{*;}
 -keep class com.google.android.material.** {*;}
 -keep class androidx.** {*;}
 -keep public class * extends androidx.**

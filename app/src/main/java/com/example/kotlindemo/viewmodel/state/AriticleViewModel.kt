@@ -1,7 +1,7 @@
 package com.example.kotlindemo.viewmodel.state
 
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
-import me.hgj.jetpackmvvm.callback.databind.StringObservableField
+import koma.mvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.callback.databind.StringObservableField
 
 /**
  * 作者　: hegaojian

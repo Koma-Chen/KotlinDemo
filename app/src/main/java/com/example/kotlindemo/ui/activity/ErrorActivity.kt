@@ -16,9 +16,9 @@ import com.example.kotlindemo.app.util.SettingUtil
 import com.example.kotlindemo.app.util.StatusBarUtil
 import com.example.kotlindemo.databinding.ActivityErrorBinding
 import kotlinx.android.synthetic.main.include_toolbar.*
-import me.hgj.jetpackmvvm.base.viewmodel.BaseViewModel
-import me.hgj.jetpackmvvm.ext.util.clipboardManager
-import me.hgj.jetpackmvvm.ext.view.clickNoRepeat
+import koma.mvvm.base.viewmodel.BaseViewModel
+import koma.mvvm.ext.util.clipboardManager
+import koma.mvvm.ext.view.clickNoRepeat
 
 
 /**
